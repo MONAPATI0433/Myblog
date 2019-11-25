@@ -1,0 +1,10 @@
+.info {
+    font-family: 'Arial',sans-serif;
+    color: #5b5c5e;
+}
+
+.hover:hover {
+  border: 1px solid blue;
+  opacity: 2;
+  transform: scale(1.1);
+}
