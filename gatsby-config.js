@@ -5,9 +5,8 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`
     `gatsby-plugin-react-helmet`,
-    // 'gatsby-plugin-sass',
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
