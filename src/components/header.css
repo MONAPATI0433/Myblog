@@ -1,12 +1,60 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    font-size: 15px;
+    font-size: 13px;
+    text-decoration: none !important;
+    list-style-type: none;
 }
 .navbar-brand{
+    font-size: 13px;
+}
+
+.dropdown-menu {
+    font-size: 13px;
+    left:-45px !important;
+}
+
+.dropdown-toggle , .nav-link {
+    color: white !important;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align:left;
+    white-space: nowrap;
+    background-color: transparent;
+    text-decoration: none;
+    border: 0;
+}
+.breadcrumb {
+    width: 1228px ;
+    margin-left: -60px ;
+    background-color: #404040 ;
+    color: white;
+    height:50px ;
+    border-radius: 0rem;
+}
+
+@media  screen and (max-width:768px) {  
+        .breadcrumb {
+            width: 500px ;
+        }  
+}
+.breadcrumb-item.active {
+    color: white;
     font-size: 15px;
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: "";
+}
 img {
     position: absolute;
     top: 0px;

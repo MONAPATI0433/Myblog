@@ -1,0 +1,39 @@
+.footer{
+    background: #1b1d2e;
+}
+ul small li  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 5px;
+     background: unset;
+    border-radius: none;
+    margin: 10px;
+    color: white;
+}
+ul small li a{
+    color: rgb(255, 255, 255);
+}
+ul small li:hover a{
+    color: white;
+}
+.align-self-center ul li{
+    padding: 0;
+}
+/* .text-light ul li a{
+    display: block;
+    text-align: justify;
+    color: white;
+} */
+.quick-links > a{
+    color: white; 
+    display: block;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: black;
+    text-align: center;
+}

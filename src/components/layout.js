@@ -8,8 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Footer from "./footer"
 import Header from "./header"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -35,10 +36,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        {/* <footer>
         <div className="row" style={{ backgroundColor: "#343a40", fontWeight: "bold" }}>
             <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-              {/* <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p> */}
+              <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
               <p className="h6 bold" style={{ fontSize: "15px", fontWeight: "400" }}>
                 © {new Date().getFullYear()}, Built with &
             {` `}
@@ -46,7 +47,8 @@ const Layout = ({ children }) => {
                 <a className="text-green ml-2" href="https://www.sunlimetech.com"></a></p>
             </div>
           </div>
-        </footer>
+        </footer> */}
+        <Footer />
       </div>
     </>
   )
